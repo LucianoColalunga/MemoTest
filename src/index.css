@@ -1,0 +1,141 @@
+header {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  color: blue;
+}
+
+body,
+html {
+  background-color: rgb(231, 217, 22);
+  height: 100%;
+}
+
+#tablero {
+  width: 100%;
+}
+
+.container-full-height {
+  height: 100%;
+  /* Altura completa para el contenedor principal */
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+}
+
+.completo {
+  background: blue;
+}
+
+.columna-juego {
+  border: 1px solid black;
+}
+
+.fila-juego {
+  /*Bootstrap viene con h-25... pero no con h-33!*/
+  height: 25vh;
+}
+
+.cuadro {
+  /* visibility no anda porque no tiene valores numéricos que se puedan incrementar o decrementar
+  visibility: hidden;
+  */
+
+
+  background-color: #ffffff;
+  /* Color de fondo de los cuadros */
+  height: 142px;
+  /* Altura de los cuadros */
+  margin-bottom: 10px;
+  /* Espacio entre los cuadros */
+  opacity: 0;
+  transition: opacity ease 0.2s;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.custom {
+  background-image: url('../src/media/fotosGrupo/Custom.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cesar {
+  background-image: url('../src/media/fotosGrupo/Cesar.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.feli {
+  background-image: url('../src/media/fotosGrupo/Feli.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.lauti {
+  background-image: url('../src/media/fotosGrupo/Lauti.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.luchein {
+  background-image: url('../src/media/fotosGrupo/Luchein.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.mati {
+  background-image: url('../src/media/fotosGrupo/Mati.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.manu {
+  background-image: url('../src/media/fotosGrupo/Manu.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.vanza {
+  background-image: url('../src/media/fotosGrupo/Vanzai.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cache {
+  background-image: url('../src/media/fotosGrupo/Cache.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.nico {
+  background-image: url('../src/media/fotosGrupo/Nick.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.juanse {
+  background-image: url('../src/media/fotosGrupo/Rasta.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.nacho {
+  background-image: url('../src/media/fotosGrupo/Nach.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+#fin-juego {
+  display: none;
+
+}
