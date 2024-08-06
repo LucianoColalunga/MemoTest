@@ -1,12 +1,14 @@
 {
-  "scripts":{
+  "scripts": {
     "cypress-dev": "cypress open",
-    "empezar": "http-server"
-  },
+    "empezar": "http-server",
+    "serve": "http-server -c-1"
+    },
   "dependencies": {
     "bootstrap": "^5.3.3"
   },
   "devDependencies": {
-    "cypress": "^13.13.0"
+    "cypress": "^13.13.0",
+    "npm-run-all": "^4.1.5"
   }
 }

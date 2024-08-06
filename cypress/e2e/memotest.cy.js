@@ -1,6 +1,6 @@
 describe('Memo Test Game', () => {
   beforeEach(() => {
-    cy.visit('http://127.0.0.1:8080/src/'); 
+    cy.visit('http://26.11.136.124:8080/src/'); 
   });
 
   it('deberia comenzar el juego con todos los cuadrados ocultos', () => {
